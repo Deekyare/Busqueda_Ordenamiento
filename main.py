@@ -105,7 +105,7 @@ if __name__ == "__main__":
         opcion = input("Elige una opción (1, 2 o 3): ")
 
         if opcion == '1':
-            print("\n--- EJEMPLO CON TU PROPIA LISTA ---")
+            print("\n--- INTRODUCE TU PROPIA LISTA ---")
             mi_lista = obtener_lista_usuario()
 
             if not mi_lista:
